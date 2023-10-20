@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* font-family: 'Roboto', sans-serif; */
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+header{
+    position: relative;
+    height:35vh ;
+    border-bottom: 7px solid #eee;
+}
+main{
+    height:65vh ;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.left{
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    width: 52rem;
+    font-size: 4rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+.number{
+    background: #eee;
+    color: #333;
+    font-size: 4rem;
+    width: 10rem;
+    height: 7rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    height: 5rem;
+    width: 15rem;
+    font-size: 2.5rem;
+    background-color: #fff;
+    color: #222;
+}
+.between{
+    position: absolute;
+    right:20% ;
+    top: 8rem;
+    font-size: 4rem;
+}
+.again{
+    position: absolute;
+    left:20% ;
+    top: 8rem;
+    font-size: 4rem;
+
+}
+
+input{
+    height: 7rem;
+    width: 30rem;
+    font-size: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: none;
+    font-family: sans-serif;
+    background-color: #ddd;
+    font-size: 30px;
+    margin: 40px;
+    
+
+    /* css grid */
+    /* display: grid;  */
+
+    /* grid gap */
+    row-gap: 20px;
+    column-gap: 20px;
+
+    /* spacing the grid row and column */    
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+
+    
+}
+
+
+/* .one{
+    background-color: red;   
+}
+.two{
+    background-color: blue;
+    grid-column: 1;
+    grid-row: 2;
+
+    /* Increasing the size */
+    /* grid-column: 1/3; */
+    /* grid-column: 1/ span 3; */
+    /* grid-column: 1/-1; */
+    /* grid-row: 2; */
+/* } */
+/* .three{
+    background-color: brown; 
+    height: 150px;  
+}
+.four{
+    background-color: orange; 
+   
+}
+.five{
+    background-color: blueviolet;    
+}
+.six{
+    background-color: rgb(131, 82, 82); 
+    /* increasing the size */
+    /* grid-row: 2/6;       */
+   
+/* } */
+/* .seven{
+    background-color: rgb(24, 24, 121);    
+} */
+/* .eight{
+    background-color: purple;  
+    grid-column: 2;
+    grid-row: 1; 
+} */ 
+
+
+/* second container for aligning grid items */
+.container--1{   
+   font-family: sans-serif;
+   background-color: black;
+   font-size: 30px;
+   margin: 40px;
+
+   width: 700px;
+   height: 600px;
+
+   /* css grid */
+   display: grid;
+
+   grid-template-columns: 125px 200px 125px ;
+   grid-template-rows:  250px 100px;
+
+   /* aligning inside the container */
+   justify-content: center;
+   /* justify-content: space-between; */
+   align-content: center;
+
+   /* algning inside the cells */
+   align-items: center; /* contract vertically*/
+   justify-items:center ; /*  contract horizontally*/
+}
+.one{
+    background-color: red;   
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: blueviolet;
+}
+.four{
+    background-color: aquamarine;
+}
+.five{
+    background-color: orange;
+}
+.six{
+    background-color: olivedrab;
+}
+.seven{
+    background-color: olive;
+}
+.eight{
+    background-color: purple;
+}
